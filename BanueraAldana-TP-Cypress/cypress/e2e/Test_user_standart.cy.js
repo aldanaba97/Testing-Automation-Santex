@@ -95,10 +95,9 @@
   it('Boton "Checkout" lleve a formulario s', () => {
     cy.get("#cancel").click();
     cy.get("#continue-shopping").click();
-    cy.get("#item_4_title_link").click();
-    cy.get("#add-to-cart").click();
+    cy.get("#add-to-cart-sauce-labs-backpack").click();
     cy.get(".shopping_cart_link").contains("1").should("be.visible");
-    cy.get("#remove").should("be.visible");
+    cy.get("#remove-sauce-labs-backpack").should("be.visible");
     cy.get(".shopping_cart_link").click();
     cy.get(".shopping_cart_link").click();
     cy.get("#item_4_title_link").should("be.visible");
