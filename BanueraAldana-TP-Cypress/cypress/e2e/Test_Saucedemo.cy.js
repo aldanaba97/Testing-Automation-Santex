@@ -12,7 +12,7 @@
     cy.get('.error-message-container').should("be.visible"); 
   } )
 
-
+//Este foreach realiza el test para un standard_user y luego recorre para problem_user
   usuarios.forEach(usuario => {
    
   it(`Login con ${usuario.username}`, () => {
@@ -52,18 +52,18 @@
     cy.get('.inventory_item').eq(5).should('contain.text', 'Sauce Labs Fleece Jacket')
   });
 
-  it("Verificar Add to car", () => {
+  it("Verificar Add to car dentro del producto", () => {
     cy.get("#item_4_title_link").click();
     cy.get("#add-to-cart").click();
     cy.get(".shopping_cart_link").contains("1").should("be.visible");
     cy.get("#remove").should("be.visible");
   });
-  it("Verificar Remove", () => {
+  it("Verificar Remove dentro del remove", () => {
     cy.get("#remove").click();
     cy.get(".shopping_cart_link").should("be.visible");
     cy.get("#add-to-cart").should("be.visible");
   });
-  it("Verificar Add to car desde index", () => {
+  it("Verificar Add to car y Remove desde index", () => {
     cy.get('#back-to-products').click(); 
     cy.get("#add-to-cart-sauce-labs-backpack").click();
     cy.get(".shopping_cart_link").contains("1").should("be.visible");
@@ -97,10 +97,11 @@
     cy.get("#checkout").click();
   });
   it("Formulario", () => {
-    cy.get("#first-name").type("Aldana");
-    cy.get("#last-name").type("Banuera");
-    cy.get("#postal-code").type("5220");
-    cy.get("#continue").click();
+    cy.Form('valid');
+    // cy.get("#first-name").type("Aldana");
+    // cy.get("#last-name").type("Banuera");
+    // cy.get("#postal-code").type("5220");
+    // cy.get("#continue").click();
   });
   it("Finalizar correctamente la compra", () => {
     cy.get("#finish").click();
