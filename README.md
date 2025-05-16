@@ -40,7 +40,19 @@ En Trello se realizo el reporte de bugs con sus caracteristicas y descripcion. A
 
 ---
 ![image](https://github.com/user-attachments/assets/ee6a6d34-be27-4aac-8d1a-a57968718041)
-![image](https://github.com/user-attachments/assets/3a1f8b56-c635-4457-b9a6-168b3f4328dc)
+![image](https://github.com/user-attachments/assets/8596a28b-4c05-4b01-9ed7-dc61c6d320d2)
+![image](https://github.com/user-attachments/assets/9ba8a296-70db-49c1-a217-41137ec0e912)
+![image](https://github.com/user-attachments/assets/72e2b357-fc3e-4efa-a763-ba50caa738d4)
+![image](https://github.com/user-attachments/assets/f2d5f8ca-1a89-4528-8c76-897c7e09f1cd)
+![image](https://github.com/user-attachments/assets/da474fe5-453d-454d-b4c1-3dca541dca08)
+![image](https://github.com/user-attachments/assets/0597f12e-bb81-46b4-9232-e7b4a3ab2e2f)
+![image](https://github.com/user-attachments/assets/ebd6001d-2a0c-4d95-bcd3-2fd062f381dd)
+
+
+
+
+
+
 
 
 
